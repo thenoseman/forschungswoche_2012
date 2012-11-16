@@ -1,0 +1,19 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/application.css')
+  body
+    .navbar
+      .navbar-inner
+        ul.nav.nav-pills
+          li.active
+            a(href='http://github.com/visionmedia/express') Express
+          li
+            a(href='https://github.com/visionmedia/jade') Jade
+          li
+            a(href='http://learnboost.github.com/stylus/') Stylus
+    .content
+      block content
+    script(src='public/javascripts/bootstrap.min.js')
